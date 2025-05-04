@@ -1,0 +1,17 @@
+{
+  "name": "obsidian-synesthesia",
+  "version": "0.1.0",
+  "description": "Theme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akash S. Patel",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "sass": "^1.87.0",
+    "stylelint": "^16.19.1",
+    "vite": "^6.3.4"
+  }
+}
