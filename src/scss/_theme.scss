@@ -1,0 +1,7 @@
+@use './globals' as *;
+
+body {
+  color: $main-color;
+  padding: $padding;
+  display: flex;
+}

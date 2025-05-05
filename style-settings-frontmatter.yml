@@ -1,0 +1,11 @@
+/*
+---
+style-settings:
+  - id: accent-color
+    title: Accent Color
+    type: variable-color
+    format: hex
+    default: "#3498db"
+  # ... more settings
+---
+*/
