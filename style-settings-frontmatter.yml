@@ -1,11 +1,33 @@
-/*
----
-style-settings:
+/* @settings
+name: Synesthesia
+id: obsidian-synesthesia
+settings:
   - id: accent-color
     title: Accent Color
     type: variable-color
     format: hex
     default: "#3498db"
-  # ... more settings
----
+  - id: font-size
+    title: Base Font Size
+    type: variable-number
+    default: 16
+    min: 12
+    max: 24
+  - id: heading
+    title: Headings
+    type: heading
+    level: 2
+    collapsed: false
+  - id: custom-class
+    title: Special Layout
+    type: class-toggle
+    default: false
+  - id: palette
+    title: Palette
+    type: variable-select
+    options:
+      - "blue"
+      - "green"
+      - "red"
+    default: "blue"
 */
