@@ -1,13 +1,35 @@
-/*
----
-style-settings:
+/* @settings
+name: Synesthesia
+id: obsidian-synesthesia
+settings:
   - id: accent-color
     title: Accent Color
     type: variable-color
     format: hex
     default: "#3498db"
-  # ... more settings
----
+  - id: font-size
+    title: Base Font Size
+    type: variable-number
+    default: 16
+    min: 12
+    max: 24
+  - id: heading
+    title: Headings
+    type: heading
+    level: 2
+    collapsed: false
+  - id: custom-class
+    title: Special Layout
+    type: class-toggle
+    default: false
+  - id: palette
+    title: Palette
+    type: variable-select
+    options:
+      - "blue"
+      - "green"
+      - "red"
+    default: "blue"
 */
 
 :root{--sidebar-folder-color-1: #ff5c5c;--sidebar-folder-color-2: #5cff7e;--sidebar-folder-color-3: #5caeff;--sidebar-folder-color-4: #ffb85c;--sidebar-folder-color-5: #b05cff;--sidebar-folder-color-6: #5cfff5;--sidebar-folder-color-7: #b0b0b0;--sidebar-file-color: #4a90e2}.nav-folder-title[data-depth="0"]{color:var(--sidebar-folder-color-1)}.nav-folder-title[data-depth="1"]{color:var(--sidebar-folder-color-2)}.nav-folder-title[data-depth="2"]{color:var(--sidebar-folder-color-3)}.nav-folder-title[data-depth="3"]{color:var(--sidebar-folder-color-4)}.nav-folder-title[data-depth="4"]{color:var(--sidebar-folder-color-5)}.nav-folder-title[data-depth="5"]{color:var(--sidebar-folder-color-6)}.nav-folder-title[data-depth="6"]{color:var(--sidebar-folder-color-7)}.nav-file-title{color:var(--sidebar-file-color)}.workspace-ribbon,.workspace-tabs,.workspace-split.mod-left-split{background-color:var(--sidebar-bg, #181a1b)}
