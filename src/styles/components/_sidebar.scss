@@ -1,0 +1,39 @@
+.nav-folder-title {
+  &[data-depth="0"] {
+    color: var(--sidebar-folder-color-1);
+  }
+
+  &[data-depth="1"] {
+    color: var(--sidebar-folder-color-2);
+  }
+
+  &[data-depth="2"] {
+    color: var(--sidebar-folder-color-3);
+  }
+
+  &[data-depth="3"] {
+    color: var(--sidebar-folder-color-4);
+  }
+
+  &[data-depth="4"] {
+    color: var(--sidebar-folder-color-5);
+  }
+
+  &[data-depth="5"] {
+    color: var(--sidebar-folder-color-6);
+  }
+
+  &[data-depth="6"] {
+    color: var(--sidebar-folder-color-7);
+  }
+}
+
+.nav-file-title {
+  color: var(--sidebar-file-color);
+}
+
+.workspace-ribbon,
+.workspace-tabs,
+.workspace-split.mod-left-split {
+  background-color: var(--sidebar-bg, #181a1b);
+}
