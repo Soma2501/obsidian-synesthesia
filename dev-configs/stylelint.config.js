@@ -2,7 +2,6 @@ module.exports = {
   extends: [
     "stylelint-config-standard",
     "stylelint-config-standard-scss",
-    "stylelint-config-prettier"
   ],
   rules: {
     "block-no-empty": true,
@@ -14,6 +13,14 @@ module.exports = {
   plugins: [
 		"stylelint-order"
 	],
+  overrides: [
+    {
+      files: ["theme.css", "dist/**/*.css"],
+      rules: {
+        "declaration-block-single-line-max-declarations": null,
+      },
+    },
+  ],
 };
 // See:
 // https://github.com/stylelint/awesome-stylelint/#readme

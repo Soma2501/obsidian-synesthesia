@@ -1,1 +1,13 @@
-body{color:#3498db;padding:1rem;display:flex}
+/*
+---
+style-settings:
+  - id: accent-color
+    title: Accent Color
+    type: variable-color
+    format: hex
+    default: "#3498db"
+  # ... more settings
+---
+*/
+
+body{color:#3498db;display:flex;padding:1rem}
