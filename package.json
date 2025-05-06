@@ -7,9 +7,6 @@
   "scripts": {
     "build": "vite build -c dev-configs/vite.config.ts",
     "postbuild": "node scripts/postbuild.js",
-    "watch": "vite --watch",
-    "build:temp": "sass src/theme.scss dist/theme.css && postcss dist/theme.css -o dist/theme.css",
-    "watch:temp": "sass --watch src/theme.scss dist/theme.css",
     "lint": "eslint \"src/**/*.{ts,js}\" \"dev-configs/**/*.{ts,js}\" -c ./dev-configs/.eslintrc.mjs",
     "lint:css": "stylelint \"**/*.{css,scss}\" -c dev-configs/stylelint.config.js",
     "lint:css:fix": "stylelint \"**/*.{css,scss}\" --fix -c dev-configs/stylelint.config.js",
