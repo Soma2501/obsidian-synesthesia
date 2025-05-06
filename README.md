@@ -10,6 +10,7 @@ Goals of this theme:
    - See:
      - https://defensivecss.dev/
      - https://docs.obsidian.md/Themes/App+themes/Theme+guidelines
+     - https://docs.obsidian.md/Developer+policies
 
 2. Material Design Principles:
    - Integrate design philosophies from Material Design v2 and v3 where appropriate

@@ -32,6 +32,7 @@ module.exports = {
   },
   plugins: [
 		"stylelint-plugin-defensive-css",
+    "stylelint-scss",
     "stylelint-order"
 	],
   overrides: [
