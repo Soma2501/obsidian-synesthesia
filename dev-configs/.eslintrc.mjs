@@ -1,12 +1,11 @@
-import { defineConfig } from "eslint/config";
 import js from "@eslint/js";
 import tseslint from "typescript-eslint";
 import parser from "@typescript-eslint/parser";
 import globals from "globals";
 
-export default defineConfig([
+export default [
   {
-    ignores: ["**/node_modules/**", "**/dist/**"],
+    ignores: ["**/node_modules/**", "**/dist/**", "**/dev-configs/**"],
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,
@@ -17,7 +16,7 @@ export default defineConfig([
     languageOptions: {
       parser,
       parserOptions: {
-        project: true,
+        project: "./tsconfig.json",
         tsconfigRootDir: import.meta.dirname,
       },
       globals: {
@@ -33,4 +32,4 @@ export default defineConfig([
       "@typescript-eslint/no-unused-vars": "warn",
     },
   },
-]);
+];

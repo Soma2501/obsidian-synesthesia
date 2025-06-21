@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: [
     "stylelint-config-standard",
     "stylelint-config-standard-scss",
@@ -31,10 +31,10 @@ module.exports = {
     "selector-max-specificity": "0,3,0",
   },
   plugins: [
-		"stylelint-plugin-defensive-css",
+    "stylelint-plugin-defensive-css",
     "stylelint-scss",
     "stylelint-order"
-	],
+  ],
   overrides: [
     {
       files: ["theme.css", "dist/**/*.css"],
