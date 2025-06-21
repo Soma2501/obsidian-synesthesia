@@ -4,7 +4,9 @@
   "description": "Theme",
   "author": "Akash S. Patel",
   "license": "GPL-3.0",
+  "type": "module",
   "scripts": {
+    "live": "node scripts/watch-and-build.js",
     "build": "vite build -c dev-configs/vite.config.ts",
     "postbuild": "node scripts/postbuild.js",
     "lint": "eslint \"src/**/*.{ts,js}\" \"dev-configs/**/*.{ts,js}\" -c ./dev-configs/.eslintrc.mjs",
@@ -42,5 +44,8 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.31.1",
     "vite": "^6.3.4"
+  },
+  "dependencies": {
+    "@parcel/watcher": "^2.5.1"
   }
 }
