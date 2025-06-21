@@ -1,10 +1,10 @@
 {
-	"id": "obsidian-synesthesia",
-	"name": "Synesthesia",
-	"version": "0.1.0",
-	"minAppVersion": "0.1.0",
-	"description": "Theme",
-	"author": "Akash S. Patel",
-	"authorUrl": "https://github.com/Soma2501",
-	"isDesktopOnly": true
+  "id": "obsidian-synesthesia",
+  "name": "Synesthesia",
+  "version": "0.1.0",
+  "minAppVersion": "0.1.0",
+  "description": "Theme",
+  "author": "Akash S. Patel",
+  "authorUrl": "https://github.com/Soma2501",
+  "isDesktopOnly": true
 }
